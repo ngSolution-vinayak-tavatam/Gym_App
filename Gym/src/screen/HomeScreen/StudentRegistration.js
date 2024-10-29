@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Dropdown } from "react-native-element-dropdown";
 import AntDesign from "@expo/vector-icons/AntDesign";
 
-import { useStudent } from '../context/StudentContext';
+// import { useStudent } from '../../context/StudentContext';
 
 // import { Camera } from 'react-native-camera';
 // import { PermissionsAndroid, Platform } from 'react-native';
@@ -67,7 +67,7 @@ const StudentRegistration = () => {
   const [studentaddress, setStudentaddress] = useState("");
   const [studentmemership, setStudentmemership] = useState("");
   const [studentphoto, setStudentphoto] = useState("");
-  const { setStudentData } = useStudent();
+  // const { setStudentData } = useStudent();
 
   const handleRegister = () => {
     if (!studentname || !studentemail) {
@@ -75,7 +75,7 @@ const StudentRegistration = () => {
       return;
     }
     // Save data to context
-    setStudentData({ studentname, studentemail });
+    // setStudentData({ studentname, studentemail });
 
   };
 

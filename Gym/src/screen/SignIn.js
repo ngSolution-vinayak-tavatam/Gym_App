@@ -13,15 +13,15 @@ const SignIn = ({ navigation }) => {
   const [password, setPassword] = useState("");
 
   const handleLogin = () => {
-    if (
-      username === USER_CREDENTIALS.username &&
-      password === USER_CREDENTIALS.password
-    ) {
+    // if (
+    //   username === USER_CREDENTIALS.username &&
+    //   password === USER_CREDENTIALS.password
+    // ) {
     //   Alert.alert("Login Successful", "Welcome back!");
     navigation.navigate("Home");
-    } else {
-      Alert.alert("Login Failed", "Invalid username or password.");
-    }
+    // } else {
+    //   Alert.alert("Login Failed", "Invalid username or password.");
+    // }
   };
 
   return (

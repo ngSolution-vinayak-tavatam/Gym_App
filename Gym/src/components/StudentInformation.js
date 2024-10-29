@@ -1,6 +1,6 @@
 import { View, Text } from "react-native";
 import React from "react";
-import { useStudent } from '../screen/context/StudentContext'
+import { useStudent } from '../context/StudentContext'
 
 
 const StudentInformation = () => {
