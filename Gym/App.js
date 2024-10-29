@@ -18,6 +18,7 @@ import {StudentProvider} from "./src/screen/context/StudentContext";
 const Stack = createNativeStackNavigator();
 
 export default function App() {
+  let vishal = "vishal"
   return (
     <StudentProvider>
       <NavigationContainer>
